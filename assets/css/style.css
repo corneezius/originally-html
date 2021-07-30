@@ -2674,3 +2674,13 @@ CONTACT INFO AREA End
 .bio-area{
   font-family: 'Lato', sans-serif;
 }
+
+
+@media screen and (min-width: 1024px) {
+  #fin {
+    margin: 0 auto;
+    /* height: 80%; */
+    width: 76%;
+    display: block;
+  }
+}
