@@ -574,8 +574,8 @@ select:focus {
   height: 100%;
   padding: 0px 10px;
   position: relative;
-  top: 0px;
-  left: 0px;
+  top: -9px;
+left: -5px;
   -webkit-transition: .5s ease-in-out;
   -moz-transition: .5s ease-in-out;
   -o-transition: .5s ease-in-out;
@@ -590,7 +590,7 @@ select:focus {
   width: 35%;
   left: 18px;
   position: absolute;
-  background: #fff;
+  background: #000;
   border-radius: 9px;
   opacity: 1;
   -webkit-transform: rotate(0deg);
@@ -1031,19 +1031,19 @@ select:focus {
 }
 
 .toggle-icon {
-  width: 55px;
-  height: 55px;
+  width: 40px;
+  height: 40px;
   text-align: center;
   margin-right: 0px;
   text-align: center;
   border-radius: 50%;
   cursor: pointer;
-  background: #252c48;
+  background: white;
   position: fixed;
   left: 30px;
   top: 15px;
   z-index: 1000;
-  box-shadow: 0px 0px 1px 1px #4c84ff;
+  box-shadow: 0px 0px 1px 1px #252c48;
   display: none;
 }
 
@@ -1057,11 +1057,28 @@ select:focus {
   height: 100vh;
 }
 
-.heading-image {
-  padding: 0px 0px 5px 0px;
-  width: 50%;
-  margin: 0 auto;
+
+
+@media screen and (max-width: 425px) {
+  .heading-image {
+    padding: 0px 0px 5px 0px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 7px;
+  }
 }
+
+@media screen and (min-width: 425px) {
+  .heading-image {
+    padding: 0px 0px 5px 0px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 7px;
+  }
+}
+
+
+
 .home .main-profile-image {
   padding: 10px 0px 15px 0px;
   /*background: #252C48;
@@ -1090,6 +1107,15 @@ select:focus {
   z-index: 1;*/
 }
 
+@media screen and (max-width: 425px) {
+  .home .main-profile-image img {
+      height: 400px;
+      margin: 0 auto;
+  }
+}
+
+
+
 
 .text-white {
   color: #fff;
@@ -1110,6 +1136,17 @@ select:focus {
   right: 20px;
   z-index: 999;
 }
+@media screen and (max-width: 425px) {
+  .contact_right_side {
+      position: fixed;
+      top: 15px;
+      right: 20px;
+      z-index: 999;
+      display:none;
+  }
+}
+
+
 .contact_right_side img{
   max-height: 25px;
 }
@@ -2626,7 +2663,7 @@ CONTACT INFO AREA End
 ==================================================*/
 
 .fixed-height{
-  height: 500px;
+  height: 620px;
   overflow-y: scroll;
 }
 .bio-area{
