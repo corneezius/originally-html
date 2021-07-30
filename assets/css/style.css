@@ -2683,4 +2683,20 @@ CONTACT INFO AREA End
     width: 76%;
     display: block;
   }
+
+  .mainmenu-area {
+    position: fixed;
+    bottom: 28%;
+    right: 25%;
+    width: 55%;
+    z-index: 999;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 50px 50px 50px 50px;
+    background: #fff;
+    visibility: visible;
+    opacity: 1;
+    justify-content: center !important;
+  }
 }
