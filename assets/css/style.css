@@ -2702,7 +2702,7 @@ CONTACT INFO AREA End
 
   .mainmenu-area {
     position: fixed;
-    bottom: 28%;
+    bottom: 24%;
     right: 25%;
     width: 50%;
     z-index: 999;
