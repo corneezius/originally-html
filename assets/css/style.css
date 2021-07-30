@@ -1038,8 +1038,58 @@ left: -5px;
   align-items: center;
 }
 .mainmenu-area .my-navbar .navbar-links .mynav-item .mynav-link img{
-  max-height: 24px;
+  max-height: 21px;
 }
+
+@media screen and (min-width: 1024px) {
+
+  .mainmenu-area .my-navbar .navbar-links .mynav-item .mynav-link img {
+    max-height: 21px;
+  }
+
+  .mainmenu-area {
+    position: fixed;
+    bottom: 24%;
+    right: 25%;
+    width: 50%;
+    z-index: 999;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 50px 50px 50px 50px;
+    background: #fff;
+    visibility: visible;
+    opacity: 1;
+    justify-content: center !important;
+  }
+
+}
+
+@media screen and (min-width: 14404px) {
+
+  .mainmenu-area .my-navbar .navbar-links .mynav-item .mynav-link img {
+    max-height: 24px;
+  }
+
+  .mainmenu-area {
+    position: fixed;
+    bottom: 24%;
+    right: 25%;
+    width: 50%;
+    z-index: 999;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 50px 50px 50px 50px;
+    background: #fff;
+    visibility: visible;
+    opacity: 1;
+    justify-content: center !important;
+  }
+
+}
+
+
 
 .mainmenu-area .my-navbar .navbar-links .mynav-item:last-child .mynav-link {
   padding-right: 0px;
@@ -2698,6 +2748,10 @@ CONTACT INFO AREA End
     /* height: 80%; */
     width: 76%;
     display: block;
+  }
+
+  .mainmenu-area .my-navbar .navbar-links .mynav-item .mynav-link img {
+    max-height: 21px;
   }
 
   .mainmenu-area {
